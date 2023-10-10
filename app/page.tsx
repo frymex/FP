@@ -1,5 +1,7 @@
 "use client"
 
+import Line from "@/components/Line"
+import Prices from "@/components/Prices"
 // import { Link } from "@chakra-ui/next-js"
 import { Box, Flex, Container, Heading, Image, Stack, Text, useColorMode, Button } from "@chakra-ui/react"
 
@@ -43,7 +45,13 @@ export default function Page() {
               width="full"
             />
           </Box>
+          
         </Flex>
+
+        <Box py={"40px"}>
+          <Line/>
+        </Box>
+
       </Container>
     </>
   )
