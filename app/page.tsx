@@ -38,7 +38,7 @@ export default function Page() {
           >
             <Image
               borderRadius="md"
-              src="https://i.imgur.com/eQQJdYU.png"
+              src="images/png/eQQJdYU.png"
               alt=""
               width="full"
             />
